@@ -11,6 +11,6 @@ tasks:
       hugo --minify
   - package: |
       cd gabr1sr.srht.site
-      tar -C public -cvz . >> ../site.tar.gz
+      tar -C public -cvz . > ../site.tar.gz
   - upload: |
       acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz
