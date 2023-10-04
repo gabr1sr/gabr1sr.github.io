@@ -1,0 +1,16 @@
+image: alpine/latest
+oauth: pages.sr.ht/PAGES:RW
+environment:
+  site: gabr1sr.srht.site
+  repo: gabr1sr.srht.site
+packages:
+  - hugo
+taks:
+  - build: |
+      cd $repo
+      hugo --minify
+  - package: |
+      cd gabr1sr.srht.site
+      tar -C public -cvz . >> ../site.tar.gz
+  - upload: |
+      acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz

@@ -1,0 +1,27 @@
+baseURL = 'https://gabr1sr.srht.site/'
+languageCode = 'en-us'
+title = 'gabr1sr'
+theme = 'smol'
+
+[params]
+subtitle = 'programming'
+
+[menu]
+[[menu.main]]
+identifier = 'posts'
+name = 'Posts'
+url = '/posts/'
+weight = 1
+
+[[menu.footer]]
+name = 'git'
+url = 'https://git.sr.ht/~gabr1sr'
+weight = 1
+
+[[menu.footer]]
+name = 'twitter'
+url = 'https://twitter.com/gabr1sr'
+weight = 2
+
+[markup.goldmark.renderer]
+  unsafe = true
