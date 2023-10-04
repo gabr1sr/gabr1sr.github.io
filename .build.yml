@@ -5,7 +5,7 @@ environment:
   repo: gabr1sr.srht.site
 packages:
   - hugo
-taks:
+tasks:
   - build: |
       cd $repo
       hugo --minify
