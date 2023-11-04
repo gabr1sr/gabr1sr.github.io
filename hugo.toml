@@ -21,7 +21,7 @@ weight = 2
 
 [[menu.footer]]
 name = 'git'
-url = 'https://git.sr.ht/~gabr1sr'
+url = 'https://github.com/gabr1sr'
 weight = 1
 
 [[menu.footer]]
