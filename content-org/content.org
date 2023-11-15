@@ -109,7 +109,76 @@ For Windows, just use ~language_server.bat~ instead of ~language_server.sh~.
 
 That's it.
 
-* Footnotes
-[fn:2] https://github.com/emacs-mirror/emacs/blob/63a6fb2a7a02ca88835c3fd473894d3b7d39ff15/etc/NEWS#L859 
+** Rust support for Emacs :emacs:rust:
+:PROPERTIES:
+:EXPORT_FILE_NAME: rust-support-for-emacs
+:EXPORT_DATE: <2023-11-15 qua 19:00>
+:END:
 
-[fn:1] https://github.com/emacs-mirror/emacs/blob/c55e22c418048463a83e6b0e29c727c4f7b09545/lisp/progmodes/eglot.el#L264 
+This is a simple tutorial of how to add Rust support for Emacs.
+
+*** Rust Analyzer
+First, make sure you have ~git~, ~rustc~ and ~cargo~ installed on your machine.
+
+Then run these commands in your terminal:
+
+#+begin_src sh
+git clone https://github.com/rust-lang/rust-analyzer -b release
+cd rust-analyzer
+cargo xtask install --server
+#+end_src
+
+And make sure ~$HOME/.cargo/bin~ is in your ~$PATH~.
+
+*** Tree Sitter
+Now, open up your Emacs and add this line to your ~init.el~:
+
+#+begin_src emacs-lisp
+(setq treesit-language-source-alist
+      '((rust "https://github.com/tree-sitter/tree-sitter-rust")))
+#+end_src
+
+Save (~C-x C-s~) and evaluate (~C-M-x~) the code we just added.
+
+Execute ~M-x treesit-install-language-grammar~ in your Emacs, select language ~rust~ and wait the build process end.
+
+*** Rust Tree Sitter Mode
+We gonna use ~rust-ts-mode~ to provide us syntax highlight for Emacs. This package is built-in in Emacs 29+[fn:3].
+
+Open your ~init.el~ again and add these lines:
+
+#+begin_src emacs-lisp
+(use-package rust-ts-mode
+  :mode "\\.rs\\'"
+  :hook (rust-ts-mode . eglot-ensure)
+  :init
+  (add-to-list 'org-src-lang-modes '("rust" . rust-ts)))
+#+end_src
+
+*** Org Babel and Rust
+If you want to add Org Babel support for Rust, you will need the package ~ob-rust~.
+
+Happily, MELPA have this package :)
+
+#+begin_src emacs-lisp
+(use-package ob-rust
+  :ensure t)
+#+end_src
+
+You will also want to add ~(rust . t)~ to ~org-babel-do-load-languages~ in your ~ob~ (Org Babel) package:
+
+#+begin_src emacs-lisp
+(use-package ob
+  :custom
+  (org-babel-do-load-languages 'org-babel-load-languages
+			       '((emacs-lisp . t)
+				 (rust . t))))
+#+end_src
+
+* Footnotes
+
+[fn:1] https://github.com/emacs-mirror/emacs/blob/c55e22c418048463a83e6b0e29c727c4f7b09545/lisp/progmodes/eglot.el#L264
+
+[fn:2] https://github.com/emacs-mirror/emacs/blob/63a6fb2a7a02ca88835c3fd473894d3b7d39ff15/etc/NEWS#L859
+
+[fn:3] https://github.com/emacs-mirror/emacs/blob/e81e625ab895f1bd3c5263f5b66251db0fd38bd6/etc/NEWS.29#L3069
