@@ -6,7 +6,7 @@ lastmod = 2023-11-15T19:02:53-03:00
 tags = ["emacs", "rust"]
 categories = ["emacs"]
 draft = false
-weight = 2002
+weight = 2001
 +++
 
 This is a simple tutorial of how to add Rust support for Emacs.
@@ -73,8 +73,8 @@ You will also want to add `(rust . t)` to `org-babel-do-load-languages` in your 
 (use-package ob
   :custom
   (org-babel-do-load-languages 'org-babel-load-languages
-			       '((emacs-lisp . t)
-				 (rust . t))))
+                               '((emacs-lisp . t)
+                                 (rust . t))))
 ```
 
 [^fn:1]: <https://github.com/emacs-mirror/emacs/blob/e81e625ab895f1bd3c5263f5b66251db0fd38bd6/etc/NEWS.29#L3069>

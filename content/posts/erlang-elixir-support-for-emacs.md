@@ -6,7 +6,7 @@ lastmod = 2023-10-09T06:57:01-03:00
 tags = ["emacs", "erlang", "elixir", "lsp"]
 categories = ["emacs"]
 draft = false
-weight = 2001
+weight = 2002
 +++
 
 This is a simple tutorial of how to add Erlang and Elixir support for Emacs.

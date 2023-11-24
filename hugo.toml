@@ -1,33 +1,26 @@
-baseURL = 'https://gabr1sr.srht.site/'
+baseURL = 'https://gabr1sr.github.io/'
 languageCode = 'en-us'
-title = 'gabr1sr'
-theme = 'smol'
+title = 'Gabriel'
+theme = 'simple-hugo-theme'
 
-[params]
-subtitle = 'programming'
+[main]
+[[menu.main]]
+identifier = 'home'
+name = 'Home'
+url = '/'
+weight = 1
 
-[menu]
 [[menu.main]]
 identifier = 'posts'
 name = 'Posts'
 url = '/posts/'
-weight = 1
+weight = 2
 
 [[menu.main]]
 identifier = 'emacs'
 name = 'Emacs'
 url = '/tags/emacs/'
-weight = 2
-
-[[menu.footer]]
-name = 'git'
-url = 'https://github.com/gabr1sr'
-weight = 1
-
-[[menu.footer]]
-name = 'twitter'
-url = 'https://twitter.com/gabr1sr'
-weight = 2
+weight = 3
 
 [markup.goldmark.renderer]
   unsafe = true
