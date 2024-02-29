@@ -14,11 +14,12 @@ Arquivo de anotação focado em reunir conteúdos para a linguagem de programaç
 A maioria dos conteúdos abaixo estão em inglês.
 
 
-## Plataformas {#plataformas}
+## Comunidades e Plataformas {#comunidades-e-plataformas}
 
+-   [OpenSense](https://www.opensense.pw/)
 -   [Updraft Cyfrin](https://updraft.cyfrin.io/)
 -   [LearnWeb3](https://learnweb3.io/)
--   [Web3Dev](https://pt.w3d.community/) (fala nossa língua 🇧🇷)
+-   [Web3Dev](https://pt.w3d.community/)
 -   [Alchemy University](https://www.alchemy.com/university)
 -   [Buildspace](https://buildspace.so/)
 
@@ -35,6 +36,7 @@ A maioria dos conteúdos abaixo estão em inglês.
 
 -   [DeFi Developer Road Map](https://github.com/OffcierCia/DeFi-Developer-Road-Map)
 -   [Secureum Mind Map](https://github.com/x676f64/secureum-mind_map/)
+-   [QuillAudit's SmartContract Auditor Roadmap](https://github.com/Quillhash/QuillAudit_Auditor_Roadmap)
 
 
 ## Livros Digitais {#livros-digitais}
@@ -42,6 +44,11 @@ A maioria dos conteúdos abaixo estão em inglês.
 -   [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook)
 -   [Ethereum Yellowpaper](https://ethereum.github.io/yellowpaper/paper.pdf)
 -   [LearnEVM](https://learnevm.com/)
+
+
+## Apresentações {#apresentações}
+
+-   [Ethereum EVM Illustrated](https://github.com/takenobu-hs/ethereum-evm-illustrated)
 
 
 ## Documentações {#documentações}
@@ -59,8 +66,34 @@ A maioria dos conteúdos abaixo estão em inglês.
 
 -   [Smart Contract Auditor Tools and Techniques](https://github.com/shanzson/Smart-Contract-Auditor-Tools-and-Techniques)
 -   [Learn EVM Attacks](https://github.com/coinspect/learn-evm-attacks)
--   [DeFi Hack Labs](https://github.com/SunWeb3Sec/DeFiHackLabs)
+-   [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs)
+-   [DeFiVulnLabs](https://github.com/SunWeb3Sec/DeFiVulnLabs)
 -   [Solodit](https://solodit.xyz/)
+-   [Smart Contract Security Best Practices](https://github.com/Consensys/smart-contract-best-practices)
+-   [Smart Contract Vulnerabilities](https://github.com/kadenzipfel/smart-contract-vulnerabilities)
+-   [Smart Contract Vulnerabilities (SCV) List](https://github.com/sirhashalot/SCV-List)
+-   [Weird ERC20 Tokens](https://github.com/d-xo/weird-erc20)
+-   [Awesome Ethereum Security](https://github.com/crytic/awesome-ethereum-security)
+-   [Awesome Web3 Security](https://github.com/Anugrahsr/Awesome-web3-Security)
+-   [A Historical Collection of Reentrancy Attacks](https://github.com/pcaversaccio/reentrancy-attacks)
+-   [DefiVuln](https://github.com/0xRajkumar/DefiVuln)
+-   [Fuzzy DeFi](https://github.com/0xNazgul/fuzzydefi)
+-   [DeFi Fork Bugs](https://github.com/YAcademy-Residents/defi-fork-bugs)
+-   [Semgrep rules for smart contracts](https://github.com/Decurity/semgrep-smart-contracts)
+-   [NFT Attack Vectors](https://github.com/Quillhash/NFT-Attack-Vectors)
+-   [DeFi Attack Vectors](https://github.com/Quillhash/DeFi-Attack-Vectors)
+-   [Solidity Attack Vectors](https://github.com/Quillhash/Solidity-Attack-Vectors)
+-   [Smart Contract Security Field Guide (SCSFG)](https://scsfg.io/)
+
+
+## CTFs {#ctfs}
+
+-   [Capture The Ether](https://capturetheether.com/)
+-   [Ethernaut](https://ethernaut.openzeppelin.com/)
+-   [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/)
+-   [Mr Steal Yo Crypto](https://mrstealyocrypto.xyz/)
+-   [Paradigm CTF](https://ctf.paradigm.xyz/)
+-   [Curta](https://www.curta.wtf/)
 
 
 ## Contests {#contests}
