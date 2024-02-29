@@ -6,7 +6,7 @@ draft = false
 +++
 
 tags
-: [Solidity]({{< relref "solidity.md" >}})
+: [Funções (Solidity)]({{< relref "funcoes_solidity.md" >}})
 
 source
 :

@@ -35,3 +35,10 @@ As blockchains podem ser divididas em 2 camadas:
 
 -   [Blockchain Layer-1]({{< relref "blockchain_layer_1.md" >}})
 -   [Blockchain Layer-2]({{< relref "blockchain_layer_2.md" >}})
+
+
+## Assuntos {#assuntos}
+
+-   [Criptomoedas]({{< relref "criptomoedas.md" >}})
+-   [Contratos Inteligentes]({{< relref "contratos_inteligentes.md" >}})
+-   [Oracle (Blockchain)]({{< relref "oracle_blockchain.md" >}})

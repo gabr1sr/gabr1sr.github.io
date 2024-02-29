@@ -19,3 +19,8 @@ As finanças descentralizadas são uma forma experimental de finanças que não 
 Elas possibilitam o usuário interagir com mercados financeiros sem depender de intermediários centralizados.
 
 Com contratos inteligentes, os usuários têm acesso transparente aos mercados financeiros e podem se envolver com produtos financeiros sofisticados de forma segura e eficiente.
+
+
+## Assuntos {#assuntos}
+
+-   [Perpetuals (DeFi)]({{< relref "perpetuals_defi.md" >}})

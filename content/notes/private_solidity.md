@@ -6,7 +6,7 @@ draft = false
 +++
 
 tags
-: [Solidity]({{< relref "solidity.md" >}})
+: [Funções (Solidity)]({{< relref "funcoes_solidity.md" >}})
 
 source
 : [Access private data in smart contracts](https://learnweb3.io/degrees/ethereum-developer-degree/senior/access-private-data-in-smart-contracts/)
