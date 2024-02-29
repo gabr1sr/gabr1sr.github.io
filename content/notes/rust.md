@@ -7,7 +7,7 @@ draft = false
 +++
 
 tags
-: rust
+: [Linguagem de Programação]({{< relref "linguagem_de_programacao.md" >}})
 
 source
 : [Foreword - The Rust Programming Language (Book)](https://doc.rust-lang.org/book/foreword.html), [O Ecossistema Rust](https://google.github.io/comprehensive-rust/pt-BR/cargo/rust-ecosystem.html), [O que é Rust?](https://google.github.io/comprehensive-rust/pt-BR/hello-world/what-is-rust.html), [Benefícios do Rust](https://google.github.io/comprehensive-rust/pt-BR/hello-world/benefits.html), [Olá, Mundo](https://google.github.io/comprehensive-rust/pt-BR/types-and-values/hello-world.html)
@@ -107,6 +107,11 @@ O ecossistema Rust consiste em várias ferramentas:
 ### Rustup {#rustup}
 
 -   Instala e atualiza o conjunto de ferramentas do Rust.
+
+
+## Conteúdos {#conteúdos}
+
+-   [Lista de Conteúdos (Rust)]({{< relref "lista_de_conteudos_rust.md" >}})
 
 
 ## Básico {#básico}
