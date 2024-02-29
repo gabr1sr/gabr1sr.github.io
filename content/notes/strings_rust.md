@@ -2,6 +2,7 @@
 title = "Strings (Rust)"
 author = ["Gabriel Rosa"]
 date = 2023-11-15T18:11:00-03:00
+tags = ["rust", "type", "primitive", "string"]
 draft = false
 +++
 

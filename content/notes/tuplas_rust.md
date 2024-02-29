@@ -2,6 +2,7 @@
 title = "Tuplas (Rust)"
 author = ["Gabriel Rosa"]
 date = 2023-11-14T07:02:00-03:00
+tags = ["rust", "type", "primitive", "tuple"]
 draft = false
 +++
 

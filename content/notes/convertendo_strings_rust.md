@@ -2,11 +2,12 @@
 title = "Convertendo Strings (Rust)"
 author = ["Gabriel Rosa"]
 date = 2024-01-15T01:16:00-03:00
+tags = ["rust", "string", "conversion"]
 draft = false
 +++
 
 tags
-: [Conversão (Rust)]({{< relref "conversao_rust.md" >}})
+: [Strings (Rust)]({{< relref "strings_rust.md" >}}), [Conversão (Rust)]({{< relref "conversao_rust.md" >}})
 
 source
 : [To and from Strings - Rust By Example](https://doc.rust-lang.org/stable/rust-by-example/conversion/string.html)

@@ -2,6 +2,7 @@
 title = "Slices (Rust)"
 author = ["Gabriel Rosa"]
 date = 2023-11-15T17:39:00-03:00
+tags = ["rust", "type", "primitive", "slice"]
 draft = false
 +++
 

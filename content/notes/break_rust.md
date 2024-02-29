@@ -2,6 +2,7 @@
 title = "Break (Rust)"
 author = ["Gabriel Rosa"]
 date = 2024-02-26T21:42:00-03:00
+tags = ["rust", "flow", "control", "break", "loop"]
 draft = false
 +++
 

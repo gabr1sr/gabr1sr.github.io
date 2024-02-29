@@ -2,6 +2,7 @@
 title = "Controle de Fluxo (Rust)"
 author = ["Gabriel Rosa"]
 date = 2024-02-26T17:34:00-03:00
+tags = ["rust", "flow", "control"]
 draft = false
 +++
 

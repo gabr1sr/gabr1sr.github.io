@@ -2,6 +2,7 @@
 title = "While (Rust)"
 author = ["Gabriel Rosa"]
 date = 2024-02-26T17:44:00-03:00
+tags = ["rust", "flow", "control", "while", "loop"]
 draft = false
 +++
 

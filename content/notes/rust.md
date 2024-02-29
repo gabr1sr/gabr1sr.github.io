@@ -119,6 +119,7 @@ O ecossistema Rust consiste em várias ferramentas:
 -   [Expressões (Rust)]({{< relref "expressoes_rust.md" >}})
 -   [Controle de Fluxo (Rust)]({{< relref "controle_de_fluxo_rust.md" >}})
 -   [Funções (Rust)]({{< relref "funcoes_rust.md" >}})
+-   [Atributos (Rust)]({{< relref "atributos_rust.md" >}})
 
 
 ## Conceitos {#conceitos}

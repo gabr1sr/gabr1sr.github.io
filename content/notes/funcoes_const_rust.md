@@ -2,6 +2,7 @@
 title = "Funções Const (Rust)"
 author = ["Gabriel Rosa"]
 date = 2024-02-28T15:40:00-03:00
+tags = ["rust", "function", "const"]
 draft = false
 +++
 

@@ -2,6 +2,7 @@
 title = "If e Else (Rust)"
 author = ["Gabriel Rosa"]
 date = 2024-02-26T17:38:00-03:00
+tags = ["rust", "flow", "control", "if", "else"]
 draft = false
 +++
 

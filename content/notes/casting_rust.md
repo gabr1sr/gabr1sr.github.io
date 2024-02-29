@@ -2,12 +2,12 @@
 title = "Casting (Rust)"
 author = ["Gabriel Rosa"]
 date = 2023-11-17T07:00:00-03:00
-tags = ["rust", "type", "cast"]
+tags = ["rust", "type", "conversion", "cast"]
 draft = false
 +++
 
 tags
-: [Tipagem (Rust)]({{< relref "tipagem_rust.md" >}})
+: [Tipagem (Rust)]({{< relref "tipagem_rust.md" >}}), [Conversão (Rust)]({{< relref "conversao_rust.md" >}})
 
 source
 : [Casting - Rust By Example](https://doc.rust-lang.org/rust-by-example/types/cast.html)

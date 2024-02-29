@@ -2,6 +2,7 @@
 title = "Atributos (Rust)"
 author = ["Gabriel Rosa"]
 date = 2024-02-28T16:24:00-03:00
+tags = ["rust", "attribute"]
 draft = false
 +++
 

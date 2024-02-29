@@ -2,6 +2,7 @@
 title = "Funções Assíncronas (Rust)"
 author = ["Gabriel Rosa"]
 date = 2024-02-28T15:57:00-03:00
+tags = ["rust", "function", "async"]
 draft = false
 +++
 

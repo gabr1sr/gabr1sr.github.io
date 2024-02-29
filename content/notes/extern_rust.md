@@ -2,6 +2,7 @@
 title = "Extern (Rust)"
 author = ["Gabriel Rosa"]
 date = 2024-02-28T15:38:00-03:00
+tags = ["rust", "function", "extern"]
 draft = false
 +++
 

@@ -2,6 +2,7 @@
 title = "Continue (Rust)"
 author = ["Gabriel Rosa"]
 date = 2024-02-26T21:46:00-03:00
+tags = ["rust", "flow", "control", "continue", "loop"]
 draft = false
 +++
 

@@ -2,6 +2,7 @@
 title = "Funções Genéricas (Rust)"
 author = ["Gabriel Rosa"]
 date = 2024-02-28T15:37:00-03:00
+tags = ["rust", "function", "generics"]
 draft = false
 +++
 
