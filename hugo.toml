@@ -17,10 +17,16 @@ url = '/posts/'
 weight = 2
 
 [[menu.main]]
+iedntifier = 'notes'
+name = 'Notes'
+url = '/notes/'
+weight = 3
+
+[[menu.main]]
 identifier = 'emacs'
 name = 'Emacs'
 url = '/tags/emacs/'
-weight = 3
+weight = 4
 
 [markup.goldmark.renderer]
   unsafe = true
