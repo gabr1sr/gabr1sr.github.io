@@ -127,6 +127,11 @@ O ecossistema Rust consiste em várias ferramentas:
 -   [Atributos (Rust)]({{< relref "atributos_rust.md" >}})
 
 
+## Avançado {#avançado}
+
+-   [Macros (Rust)]({{< relref "macros_rust.md" >}})
+
+
 ## Conceitos {#conceitos}
 
 -   [Printing (Rust)]({{< relref "printing_rust.md" >}})

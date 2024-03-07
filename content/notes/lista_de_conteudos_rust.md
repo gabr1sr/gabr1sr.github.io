@@ -22,6 +22,7 @@ Todos os conteúdos abaixo estão disponíveis em inglês.
 -   [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
 -   [The Little Book of Rust Macros](https://veykril.github.io/tlborm/)
 -   [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
+-   [Effective Rust](https://effective-rust.com/)
 
 
 ## Documentações {#documentações}

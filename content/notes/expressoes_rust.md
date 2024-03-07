@@ -10,7 +10,11 @@ tags
 : [Rust]({{< relref "rust.md" >}})
 
 source
-: [Expressions - Rust By Example](https://doc.rust-lang.org/stable/rust-by-example/expression.html)
+: [Expressions - Rust By Example](https://doc.rust-lang.org/stable/rust-by-example/expression.html), [Statements and Expressions - The Rust Programming Language](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html#statements-and-expressions)
+
+Declarações são instruções que performam algumas ações e não retornam valores.
+
+Expressões são instruções que retornam um valor resultante.
 
 Um programa Rust é feito quase inteiramente de declarações.
 

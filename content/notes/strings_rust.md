@@ -27,7 +27,11 @@ Podemos declarar strings das seguintes formas:
 
 ### Literal (slice de String) {#literal--slice-de-string}
 
-A referência para uma string é alocada na memória de apenas leitura.
+Uma string literal é uma string imutável e de tamanho conhecido.
+
+Ela é alocada na stack.
+
+E pode ser declarada das seguintes formas:
 
 ```rust
 let string1: &'static str = "Hello";
@@ -46,7 +50,7 @@ println!("string3: {} = {:?}", type_of(&string3), string3);
 
 ### String a partir de um slice de String {#string-a-partir-de-um-slice-de-string}
 
-A string é alocada na heap.
+A string é alocada na Heap e um ponteiro para seu endereço é alocado na Stack.
 
 Se a variável for imutável, cada alteração deverá ser salva em outra variável (alocando mais memória).
 
@@ -61,6 +65,20 @@ fn type_of<T>(_: &T) -> &'static str {
 println!("alice: {} = {:?}", type_of(&alice), alice);
 println!("bob: {} = {:?}", type_of(&bob), bob);
 ```
+
+Uma `String` é feita de 3 partes:
+
+-   ponteiro (ou ptr) =&gt; aponta para o endereço de memória em que o conteúdo da `String` está
+-   tamanho (ou length) =&gt; quantos bytes o conteúdo da `String` está usando
+-   capacidade (ou capacity) =&gt; quantidade total de memória, em bytes, que a `String` recebeu do alocador
+
+Essas partes são guardadas na stack, equanto o conteúdo da string é guardado na heap.
+
+```rust
+let s1 = String::from("hello");
+```
+
+{{< figure src="/ox-hugo/2024-03-06_23-45-55_screenshot.png" >}}
 
 
 ## Códigos {#códigos}
