@@ -1,0 +1,207 @@
+$fonts: 'Inter', Helvetica, sans-serif;
+$background: #141414;
+$primary: #3daefd;
+$secondary: #5b6ff6;
+$third: #6c4bf2;
+$color: #ffffff;
+$color2: #fafafa;
+$color3: #efefef;
+
+a:link {
+    color: $primary;
+}
+
+a:visited {
+    color: $secondary;
+}
+
+body {
+    font-family: $fonts;
+    background-color: $background;
+    color: $color;
+    margin: 0 auto;
+    max-width: 76rem;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#footer {
+    margin: 5px auto;
+    max-width: 60rem;
+}
+
+pre {
+    padding: 1.5rem;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60rem;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header > h1 {
+    margin: 0;
+}
+
+#header > h1 > a {
+    all: unset;
+    cursor: default;
+}
+
+#header-nav > ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+#header-nav > ul > li {
+    padding: 10px;
+}
+
+#header-nav > ul > li > a {
+    text-decoration: none;
+}
+
+// General
+.post-article {
+    margin-top: 2rem;
+    
+    .post-header {
+	margin: 0 auto;
+	max-width: 80rem;
+	padding: 0;
+	
+	.post-title {
+	    font-size: 30px;
+	    font-weight: 900;
+	    margin-top: 0;
+	    margin-bottom: 20px;
+	}
+
+	.post-description {
+	    font-size: 21px;
+	}
+    }
+    
+    .post-content {
+	font-size: 18px;
+	line-height: 28px;
+	margin: 0 auto 0.8rem;
+	max-width: 80rem;
+	padding: 2rem 0;
+	color: $color3;
+
+	p {
+	    font-size: 18px;
+	    line-height: 28px;
+	    color: $color2;
+	}
+
+	ul {
+	    color: $color2;
+	}
+
+	h2 {
+	    font-size: 24px;
+	    font-weight: 900;
+	}
+
+	h3 {
+	    font-size: 18px;
+	    line-height: 28px;
+	}
+
+	pre {
+	    font-size: 12px;
+	    font-height: 28px;
+	}
+
+	.highlight {
+	    line-height: 22px;
+	}
+    }
+}
+
+// Smartphones
+@media screen and (max-width: 480px) {
+    #header {
+	padding: 1rem;
+    }
+
+    main {
+	padding: 1rem;
+    }
+    
+    pre {
+	padding: 1rem;
+    }
+
+    #footer {
+	padding: 0 2rem;
+    }
+    
+    .post-article {
+	margin-top: 0;
+	padding: 1rem;
+
+	.post-header {
+	    padding: 0 0rem;
+
+	    .post-title {
+		font-size: 26px;
+		font-weight: 900;
+		margin-top: 0;
+		margin-block-end: 20px;
+	    }
+
+	    .post-description {
+		font-size: 18px;
+	    }
+	}
+	
+	.post-content {
+	    font-size: 16px;
+	    line-height: 24px;
+	    margin: 0 auto 0.8rem;
+	    max-width: 80rem;
+	    padding: 2.4rem 0rem;
+
+	    p {
+		font-size: 16px;
+		line-height: 24px;
+	    }
+
+	    h2 {
+		font-size: 24px;
+		font-weight: 900;
+	    }
+
+	    h3 {
+		font-size: 16px;
+		line-height: 24px;
+	    }
+	}
+    }
+}

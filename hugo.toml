@@ -1,0 +1,22 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Gabriel'
+
+[main]
+[[menu.main]]
+identifier = 'home'
+name = 'Home'
+url = '/'
+weight = 1
+
+[[menu.main]]
+identifier = 'posts'
+name = 'Posts'
+url = '/posts/'
+weight = 2
+
+[markup.highlight]
+style = 'onedark'
+
+[markup.goldmark.renderer]
+  unsafe = true

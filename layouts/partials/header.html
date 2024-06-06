@@ -1,0 +1,15 @@
+<header id="header">
+  <h1><a href="{{ site.BaseURL }}">{{ site.Title }}</a></h1>
+  <nav id="header-nav">
+    <ul>
+      {{ range .Site.Menus.main }}
+      <li>
+	<a href="{{ .URL | relURL }}">
+	  {{ $text := print .Name | safeHTML }}
+	  {{ $text }}
+	</a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>

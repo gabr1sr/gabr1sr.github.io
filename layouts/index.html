@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{ .Content }}
+<h2>Recent Posts</h2>
+<section>
+  {{ $pgFilter1 := where .Site.RegularPages "Draft" false }}
+  {{ $pgFilter2 := where .Site.RegularPages "Params.date" "!=" nil }}
+  {{ $pgFilter := $pgFilter1 | intersect $pgFilter2 }}
+  <ul>
+    {{ range (.Paginate $pgFilter).Pages }}
+    <li>
+      {{ .Date.Format "2006-01-02" }} <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
