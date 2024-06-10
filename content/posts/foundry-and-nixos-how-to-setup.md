@@ -3,7 +3,7 @@ title = "Foundry and NixOS: How To Setup"
 author = ["Gabriel Rosa"]
 description = "Foundry is a blazing fast, portable, modular and the most popular toolkit for Ethereum and EVM-compĺiant applications development. In this post, we will learn how to install it in our NixOS."
 date = 2024-06-06T10:57:00-03:00
-lastmod = 2024-06-06T10:57:47-03:00
+lastmod = 2024-06-10T18:19:32-03:00
 slug = "foundry-and-nixos-how-to-setup"
 tags = ["solidity", "foundry", "nixos", "en"]
 draft = false
@@ -167,3 +167,30 @@ templates = {
 ```
 
 It will looks like [my template config](https://github.com/gabr1sr/nixos/blob/3ae13b3fee8717ec7394496a6fc8eab081a31068/flake.nix#L64-L68).
+
+
+## Using devenv {#using-devenv}
+
+This is the simplest way to install Foundry in your NixOS. First, you need [devenv](https://devenv.sh/) installed in your machine.
+
+Then initialize the devenv in the project directory and add foundry.nix to the inputs of `devenv.yaml` file:
+
+```shell
+$ devenv init
+$ devenv inputs add foundry github:shazow/foundry.nix --follows nixpkgs
+```
+
+And edit the `devenv.nix` file:
+
+```nix
+{ ... }:
+
+{
+  languages.solidity.enable = true;
+  languages.solidity.foundry.enable = true;
+}
+```
+
+And run `devenv shell` to enter a shell with foundry binaries present.
+
+You can run `direnv allow` to automatically enter this shell whenever you cd into this directory.
