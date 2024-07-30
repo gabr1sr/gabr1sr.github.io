@@ -117,7 +117,7 @@ p {
     }
 }
 
-section {
+section, article {
     ul {
 	li {
 	    margin-top: 0.5rem;
@@ -207,6 +207,14 @@ main {
 @media screen and (max-width: 480px) {
     #header {
 	padding: 1rem;
+
+	h1 {
+	    padding-left: 1rem;
+	}
+
+	nav {
+	    padding-right: 1rem;
+	}
     }
 
     main {
