@@ -1,9 +1,9 @@
 +++
 title = "Foundry and NixOS: How To Setup"
 author = ["Gabriel Rosa"]
-description = "Foundry is a blazing fast, portable, modular and the most popular toolkit for Ethereum and EVM-compĺiant applications development. In this post, we will learn how to install it in our NixOS."
+description = "Foundry is a blazing fast, portable, modular and the most popular toolkit for Ethereum and EVM-compliant applications development. In this post, we will learn how to install it in our NixOS."
 date = 2024-06-06T10:57:00-03:00
-lastmod = 2024-06-10T18:19:32-03:00
+lastmod = 2024-07-30T04:37:26-03:00
 slug = "foundry-and-nixos-how-to-setup"
 tags = ["solidity", "foundry", "nixos", "en"]
 draft = false
